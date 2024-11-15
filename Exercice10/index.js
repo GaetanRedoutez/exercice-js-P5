@@ -5,7 +5,7 @@ const printNumbers = (n) => {
   for (let i = 1; i <= n; i++) {
     string += i + " ";
   }
-  return string;
+  return string.trim();
 };
 
 export default printNumbers;
