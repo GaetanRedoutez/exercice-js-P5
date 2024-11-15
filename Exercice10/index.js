@@ -1,3 +1,11 @@
 //votre code ici
 
-export default printNumbers
+const printNumbers = (n) => {
+  let string = "";
+  for (let i = 1; i <= n; i++) {
+    string += i + " ";
+  }
+  return string;
+};
+
+export default printNumbers;
