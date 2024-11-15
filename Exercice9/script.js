@@ -2,11 +2,11 @@
 
 function checkAge(age) {
   if (age < 18) {
-    return "Vous etes mineur";
+    return "Vous êtes mineur.";
   } else if (age >= 18 && age < 65) {
-    return "Vous etes majeur";
+    return "Vous êtes majeur.";
   } else {
-    return "Vous etes senior";
+    return "Vous êtes senior.";
   }
 }
 
