@@ -1,3 +1,7 @@
 //Votre code ici
 
- export default add;
+function add(a, b) {
+  return parseFloat(a) + parseFloat(b);
+}
+
+export default add;
